@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Chomsky";
+    src: url(/Users/Restive/the-anchorage-times/public/fonts/Chomsky.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Times-New-Roman-Bold";
+    src: url(/Users/Restive/the-anchorage-times/public/fonts/timesnewromanbold.ttf) format("truetype");
+}
+
+#standing-header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5%;
+    text-align: center;
+    min-height: 3vh;
+    padding-bottom: 1%;
+}
+
+.logo{
+    font-family: "Chomsky", sans-serif;
+    font-size: 50px;
+    max-height: 10vh;
+    text-decoration: none;
+    color: black;
+}
+
+
+.date {
+    font-family: "Times-New-Roman-Bold", sans-serif;
+}

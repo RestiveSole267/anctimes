@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "Imperial";
+    src: url(/Users/Restive/the-anchorage-times/public/fonts/ImperialRegular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "HelSans";
+    src: url(/Users/Restive/the-anchorage-times/public/fonts/HelSans.ttf) format("truetype");
+}
+
+#ElectionFeed{
+    text-align: left;
+    padding-top: 0.5%;
+    padding-left: 5%;
+}
+
+.status{
+    font-family: "HelSans", sans-serif;
+}
+
+.election-name{
+    font-family: "Imperial", sans-serif;
+}
+
+.description {
+    font-family: "HelSans", sans-serif;
+    max-width: 800px;
+}
+
+.caller {
+    font-family: "HelSans", sans-serif;
+    font-weight: 700;
+}
+
+.eleft {
+    padding-top: 2%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    max-width: 100px;
+
+}
+.eright{
+    padding-top: 2%;
+}
+
+.winner-box{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 99, 71);
+    max-width: 750px;
+    min-height: 110px;
+
+}
+
+.box-text{
+    margin: 0;
+    font-size: 25px;
+    min-width: 750px;
+    font-family: "Imperial", sans-serif;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    color: white;
+}
+
+.caller {
+    margin: 0;
+    color: white;
+}
+
+.winner {
+    font-size: 17px;
+    margin: 0;
+    color: white;
+}
+
+.Avia {
+    border-radius: 70px;
+}
+
+.Stan{
+    border-radius: 70px;
+}
+
+.table{
+    max-width: 800px;
+}
+
+.top-table{
+    display: flex;
+    flex-direction: row;
+    background-color: #e2e2e2;
+    min-height: 35px;
+    max-width: 750px;
+}
+
+.lastupdate{
+    padding-top: 1.3%;
+    padding-left: 3%;
+    text-align: left;
+    color: #888;
+    margin: 0;
+    font-size: 12px;
+}
+.certified{
+    padding-top: 1.3%;
+    padding-left: 55.5%;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+    margin: 0;
+}
+
+#results{
+    max-width: 800px
+}
+
+.candidate {
+    color: #888;
+    width: 33%;
+}
+.party {
+    color: #888;
+    width: 32%;
+    padding-left: 1.5%;
+}
+.votes{
+    color: #888;
+    width: 28%;
+}
+.pct{
+    color: #888;
+}
+
+.candidate, .party, .votes, .pct{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.AviaInfo{
+    display: flex;
+    flex-direction: row;
+}
+.StanInfo{
+    display: flex;
+    flex-direction: row;
+}
+
+.AviaInfo{
+    background-color: rgb(255, 99, 71);
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-bottom: 1.5%;
+}
+
+.StanInfo{
+    border-bottom: 1px solid #e2e2e2;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+}
+
+.AviaName{
+    padding-left: 4%;
+    color: white;
+    font-weight: 600;
+}
+
+.StanName{
+    padding-left: 4%;
+    color: black;
+}
+
+.AviaPartyInfo{
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.AviaParty{
+    padding-left: 4%;
+}
+
+.AviaVotesInfo{
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.AviaPCTInfo{
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.StanParty{
+    padding-left: 4%;
+}
+
+.StanPartyInfo{
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.StanVotesInfo{
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.StanPCTInfo{
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.reporting{
+    padding-left: 0.5%;
+}

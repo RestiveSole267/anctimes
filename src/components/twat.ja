@@ -1,0 +1,18 @@
+import React from "react";
+import moment from "moment";
+import "./standing-header.css";
+
+class StandingHeader extends React.Component{
+    render(){
+        return (
+            <div id="standing-header">
+                <a className="logo" href="/">The Anchorage Times</a>
+                <div className="date">
+                    Friday, October 7, 2022
+                </div>
+            </div>
+        );
+    }
+}
+
+export default StandingHeader;

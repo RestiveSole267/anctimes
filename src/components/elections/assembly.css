@@ -1,0 +1,89 @@
+
+
+#AssemblyFeed{
+    text-align: left;
+    padding-top: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.status{
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    color: red;
+}
+
+.atable {
+    display: flex;
+    flex-direction: row;
+    min-width: 1100px;
+    padding-top: 2%;
+}
+
+.aleft {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+    min-width: 500px;
+}
+
+.aright {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    min-width: 500px;
+}
+
+.district1, .district2, .district3, .district4, .district5, .district6, .district7{
+    padding-bottom: 8%;
+}
+
+.acandidate, .aparty, .avotes, .apct{
+    font-weight: 400;
+    font-size: 12px;
+    width: 45%;
+    color: #888;
+}
+
+.CandidatePartyInfo, .Candidate2PartyInfo{
+    padding-left: 1%;
+}
+
+.CandidateVotesInfo, .Candidate2VotesInfo{
+    padding-left: 1%;
+}
+.district-name{
+    font-size: 22px;
+}
+.RestiveInfo, .LHVHInfo, .NerdoInfo, .LarryInfo, .ChumInfo, .tripInfo, .CaiseeInfo, .CandidatePartyInfo, .CandidateVotesInfo, .CandidatePCTInfo{
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.RestiveInfo, .LHVHInfo, .NerdoInfo, .LarryInfo, .ChumInfo, .tripInfo, .CaiseeInfo{
+    padding-left: 1%;
+}
+
+.JamesInfo, .AviaDInfo, .BillInfo, .AmericanInfo, .DomInfo, .S3CInfo, .PandInfo{
+    padding-left: 4.5%;
+}
+
+.JamesInfo, .AviaDInfo, .BillInfo, .AmericanInfo, .DomInfo, .S3CInfo, .PandInfo, .Candidate2PartyInfo, .Candidate2VotesInfo, .Candidate2PCTInfo{
+    border-bottom: 1px solid #e2e2e2; 
+}
+
+.RestiveInfo, .ChumInfo, .NerdoInfo, .CaiseeInfo, .LarryInfo{
+    background-color: rgb(75,0,130);
+}
+
+.WCandidateName {
+    color: white;
+    font-weight: 600;
+}
+
+.CandidateName{
+    color: black;
+}
+.LHVHInfo, .tripInfo{
+    background-color: #1a80c4;
+}

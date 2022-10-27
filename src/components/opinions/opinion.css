@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Imperial";
+    src: url(/Users/Restive/the-anchorage-times/public/fonts/ImperialRegular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "HelSans";
+    src: url(/Users/Restive/the-anchorage-times/public/fonts/HelSans.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Times-New-Roman";
+    src: url(/Users/Restive/the-anchorage-times/public/fonts/timesnewroman.ttf) format("truetype");
+}
+
+#opinionfeed{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.opinion-name{
+    text-align: left;
+    font-size: 45px;
+    font-family: "Imperial", sans-serif;
+}
+
+.opinion-navbar{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.opinion-sectionheader{
+    border-bottom: 1px solid gray;
+    padding-bottom: 1.5%;
+}
+
+.opinion-sectioncontent{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid black;
+    padding-top: 2%;
+}
+
+.feedboxone, .feedboxtwo, .feedboxthree, .feedboxfour{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+    padding-bottom: 2%;
+    max-width: 880px;
+}
+
+.feedboxtwo, .feedboxthree, .feedboxfour{
+    padding-top: 2%;
+}
+
+.feedboxone-date, .feedboxtwo-date, .feedboxthree-date, .feedboxfour-date{
+    padding-right: 2%;
+    min-width: 95px;
+}
+
+.feedboxone-date{
+    padding-right: 2.4%;
+
+}
+
+.feedboxtwo-date{
+    padding-right: 2.3%;
+}
+
+.feeddateone-text, .feeddatetwo-text, .feeddatethree-text, .feeddatefour-text{
+    margin: 0;
+    font-size: 12px;
+}
+
+.feedboxone-info, .feedboxtwo-info, .feedboxthree-info, .feedboxfour-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 510px;
+}
+
+.feedinfoone-header, .feedinfotwo-header, .feedinfothree-header, .feedinfofour-header{
+    font-size: 23px;
+    text-align: left;
+    font-family: "Imperial", sans-serif;
+}
+
+.feedinfoone-description, .feedinfotwo-description, .feedinfothree-description, .feedinfofour-description {
+    margin: 0;
+    padding-top: 2%;
+    text-align: left;
+    color: black;
+    max-width: 480px;
+}
+
+.feedinfoone-author, .feedinfotwo-author, .feedinfothree-author, .feedinfofour-author{
+    margin: 0;
+    text-align: left;
+    padding-top: 1%;
+    font-size: 12px;
+    font-family: "HelSans", sans-serif;
+}
+
+.feedboxone-img, .feedboxtwo-img{
+    padding-left: 5%;
+}
+
+.feedboxthree-img{
+    padding-left: 1.5%;
+}
+
+.feedboxfour-img{
+    padding-left: 5%;
+}

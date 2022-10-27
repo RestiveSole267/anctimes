@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "HelSans";
+    src: url(/Users/Restive/the-anchorage-times/public/fonts/HelSans.ttf) format("truetype");
+}
+
+#navbarelection{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: 1px double black;
+}
+
+
+.linksa {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    min-width: max-content;
+    text-decoration: none;
+    
+}
+
+.c {
+    padding-right: 12%;
+    padding-top: 0.6%;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "HelSans", sans-serif;
+}
+
+
+
+.ca {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding-right: 12%;
+}
+
+.ELECTION-HEADER{
+    color: black;
+    font-size: 15px;
+    padding-top: 2%;
+    padding-right: 12%;
+    padding-left: 7%;
+    text-decoration: none;
+    font-family: "HelSans", sans-serif;
+    font-weight: 800;
+    margin: 0;
+}

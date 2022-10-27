@@ -1,0 +1,90 @@
+
+#ReferendumFeed{
+    text-align: left;
+    padding-top: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.rtable {
+    display: flex;
+    flex-direction: row;
+    min-width: 1100px;
+    padding-top: 2%;
+}
+
+.rleft {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+    min-width: 500px;
+}
+
+.rright {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    min-width: 500px;
+}
+
+.referendum1, .referendum2{
+    padding-bottom: 12%;
+}
+
+.answer{
+    font-weight: 400;
+    font-size: 12px;
+    color: gray;
+}
+
+.referendum-num{
+    margin: 0%;
+    margin-bottom: 1%;
+    color: gray;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.referendum-name{
+    margin: 0;
+    margin-bottom: 0.5%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.answeryes, .yesvotesinfo, .yespctinfo{
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.answerno, .novotesinfo, .nopctinfo{
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.ranswer, .rvotes, .rpct{
+    color: #888;
+    font-weight: 400;
+    font-size: 12px;
+    width: 45%;
+}
+
+.answeryes{
+    padding-left: 1%;
+}
+.answerno{
+    padding-left: 5%;
+}
+
+.yesvotesinfo, .novotesinfo{
+    padding-left: 1%;
+}
+
+
+.answeryes{
+    background-color: #4394a1;
+}
+
+.yes{
+    color: white;
+    font-weight: 600;
+}

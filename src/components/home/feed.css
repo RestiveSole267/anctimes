@@ -1,0 +1,124 @@
+
+@font-face {
+    font-family: "Imperial";
+    src: url(/Users/Restive/the-anchorage-times/public/fonts/ImperialRegular.ttf) format("truetype");
+}
+
+#feed {
+    text-align: left;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5%;
+    padding-right: 6%;
+    padding-left: 5%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    min-width: 800px;
+    padding-right: 1.5%;
+    border-right: 1px solid rgb(235,235,235);
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5%;
+    max-width: 320px;
+}
+
+
+.first{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid black;
+    font-family: "Imperial", sans-serif;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid black;
+    font-family: "Imperial", sans-serif;
+}
+
+.firsta{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid black;
+    font-family: "Imperial", sans-serif;
+}
+
+.seconda{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid rgb(235,235,235);
+    font-family: "Imperial", sans-serif;
+}
+
+p {
+    color: gray;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.thirda{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid rgb(235,235,235);
+    font-family: "Imperial", sans-serif;
+}
+
+.fourtha{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid rgb(235,235,235);
+    font-family: "Imperial", sans-serif;
+}
+
+.fiftha{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid rgb(235,235,235);
+    font-family: "Imperial", sans-serif;
+}
+
+.image {
+    padding-left: 3%;
+}
+
+.imagea{
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+}
+
+h4 {
+    margin-bottom: 0;
+    padding-bottom: 1.5%;
+    color: gray;
+    font-size: 12px;
+}
