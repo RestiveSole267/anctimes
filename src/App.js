@@ -14,7 +14,7 @@ function App() {
   console.log(window.location)
   let component
   switch (window.location.pathname) {
-    case "/anctimes":
+    case "/anctimes/":
       component = <Home></Home>
       break;
     case "/anctimes/politics":
@@ -40,6 +40,9 @@ function App() {
         break;
     case "/anctimes/video":
       component = <Video></Video>
+      break;
+    default:
+      console.log("Could not find the correct window page to display.")
       break;
   }
   return (
