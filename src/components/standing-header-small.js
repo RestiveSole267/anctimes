@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import "./standing-header-small.css";
 
 class StandingHeaderSmall extends React.Component{
     render(){
         return (
             <div id="standing-header-small">
-                <a className="logoa" href="/">The Anchorage Times</a>
+                <Link to="/" className="logoa">The Anchorage Times</Link>
             </div>
         );
     }

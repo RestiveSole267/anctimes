@@ -1,5 +1,6 @@
 import React from "react";
 import moment from "moment";
+import { Link } from "react-router-dom"
 import "./standing-header.css";
 
 class StandingHeader extends React.Component{
@@ -7,7 +8,7 @@ class StandingHeader extends React.Component{
         const date = moment().format('dddd, MMMM Do, YYYY')
         return (
             <div id="standing-header">
-                <a className="logo" href="/">The Anchorage Times</a>
+                <Link to="/" className="logo">The Anchorage Times</Link>
                 <div className="date">
                     {date}
                 </div>
