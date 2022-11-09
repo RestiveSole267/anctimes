@@ -8,7 +8,7 @@ class StandingHeader extends React.Component{
         const date = moment().format('dddd, MMMM Do, YYYY')
         return (
             <div id="standing-header">
-                <Link to="/" className="logo">The Anchorage Times</Link>
+                <Link to="/anctimes/" className="logo">The Anchorage Times</Link>
                 <div className="date">
                     {date}
                 </div>

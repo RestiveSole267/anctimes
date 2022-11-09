@@ -6,7 +6,7 @@ class StandingHeaderSmall extends React.Component{
     render(){
         return (
             <div id="standing-header-small">
-                <Link to="/" className="logoa">The Anchorage Times</Link>
+                <Link to="/anctimes/" className="logoa">The Anchorage Times</Link>
             </div>
         );
     }
