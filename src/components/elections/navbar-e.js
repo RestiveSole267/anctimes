@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import BallotBox from "/Users/Restive/the-anchorage-times/src/components/images/ballot-box.png";
 import "./navbar-e.css"
 
@@ -7,19 +8,19 @@ class NavBarElection extends React.Component{
         return (
             <div id="navbarelection">
                 <div className="linksa">
-                <a className="ca" href="/anctimes/elections"><img src={BallotBox} width="20px" height="20px" className="BallotBox" alt="Ballot-Box.png"></img><p className="ELECTION-HEADER">ELECTIONS</p></a>
-                <a className="c" href="/anctimes/mayorial">
+                <Link to="/anctimes/elections" className="ca"><img src={BallotBox} width="20px" height="20px" className="BallotBox" alt="Ballot-Box.png"></img><p className="ELECTION-HEADER">ELECTIONS</p></Link>
+                <Link to="/anctimes/mayorial" className="c">
                     Mayorial
-                </a>
-                <a className="c" href="/anctimes/assembly">
+                </Link>
+                <Link to="/anctimes/assembly" className="c">
                     Assembly
-                </a>
-                <a  className="c" href="/anctimes/referendums">
+                </Link>
+                <Link to="/anctimes/referendums" className="c">
                     Referendums
-                </a>
-                <a className="c" href="/anctimes/polls">
+                </Link>
+                <Link to="/anctimes/polls" className="c">
                     Polls
-                </a>
+                </Link>
                 </div>
             </div>
         );
