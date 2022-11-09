@@ -7,17 +7,17 @@ class NavBarElection extends React.Component{
         return (
             <div id="navbarelection">
                 <div className="linksa">
-                <a className="ca" href="/elections"><img src={BallotBox} width="20px" height="20px" className="BallotBox" alt="Ballot-Box.png"></img><p className="ELECTION-HEADER">ELECTIONS</p></a>
-                <a className="c" href="/mayorial">
+                <a className="ca" href="/anctimes/elections"><img src={BallotBox} width="20px" height="20px" className="BallotBox" alt="Ballot-Box.png"></img><p className="ELECTION-HEADER">ELECTIONS</p></a>
+                <a className="c" href="/anctimes/mayorial">
                     Mayorial
                 </a>
-                <a className="c" href="/assembly">
+                <a className="c" href="/anctimes/assembly">
                     Assembly
                 </a>
-                <a  className="c" href="/referendums">
+                <a  className="c" href="/anctimes/referendums">
                     Referendums
                 </a>
-                <a className="c" href="/polls">
+                <a className="c" href="/anctimes/polls">
                     Polls
                 </a>
                 </div>
