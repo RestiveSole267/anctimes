@@ -21,7 +21,7 @@ function App() {
         <Route path="/anctimes/elections" element={<Elections></Elections>}></Route>
         <Route path="/anctimes/mayorial" element={<Mayorial></Mayorial>}></Route>
         <Route path="/anctimes/assembly" element={<Assembly></Assembly>}></Route>
-        <Route path="/anctimes/referendums" element={<Referendum></Referendum>}></Route>
+        <Route path="/anctimes/referendum" element={<Referendum></Referendum>}></Route>
         <Route path="/anctimes/polls" element={<Polls></Polls>}></Route>
         <Route path="/anctimes/video" element={<Video></Video>}></Route>
       </Routes>

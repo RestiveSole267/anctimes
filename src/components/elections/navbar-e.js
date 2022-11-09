@@ -15,7 +15,7 @@ class NavBarElection extends React.Component{
                 <Link to="/anctimes/assembly" className="c">
                     Assembly
                 </Link>
-                <Link to="/anctimes/referendums" className="c">
+                <Link to="/anctimes/referendum" className="c">
                     Referendums
                 </Link>
                 <Link to="/anctimes/polls" className="c">
