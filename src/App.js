@@ -8,46 +8,23 @@ import Referendum from './components/elections/referendum';
 import Polls from './components/elections/polls';
 import Video from './components/video/video'
 import './App.css';
-
+import { Route, Routes } from "react-router-dom"
 
 function App() {
   console.log(window.location)
-  let component
-  switch (window.location.pathname) {
-    case "/anctimes/":
-      component = <Home></Home>
-      break;
-    case "/anctimes/politics":
-      component = <Politics></Politics>
-      break;
-    case "/anctimes/opinion":
-      component = <Opinion></Opinion>
-      break;
-    case "/anctimes/elections":
-      component = <Elections></Elections>
-      break;
-    case "/anctimes/mayorial":
-      component = <Mayorial></Mayorial>
-      break;
-    case "/anctimes/assembly":
-      component = <Assembly></Assembly>
-      break;
-    case "/anctimes/referendums":
-      component = <Referendum></Referendum>
-      break;
-    case "/anctimes/polls":
-        component = <Polls></Polls>
-        break;
-    case "/anctimes/video":
-      component = <Video></Video>
-      break;
-    default:
-      console.log("Could not find the correct window page to display.")
-      break;
-  }
   return (
     <div className="App">
-      {component}
+      <Routes>
+        <Route path="/anctimes/" element={<Home></Home>}></Route>
+        <Route path="/anctimes/politics" element={<Politics></Politics>}></Route>
+        <Route path="/anctimes/opinion" element={<Opinion></Opinion>}></Route>
+        <Route path="/anctimes/elections" element={<Elections></Elections>}></Route>
+        <Route path="/anctimes/mayorial" element={<Mayorial></Mayorial>}></Route>
+        <Route path="/anctimes/assembly" element={<Assembly></Assembly>}></Route>
+        <Route path="/anctimes/referendum" element={<Referendum></Referendum>}></Route>
+        <Route path="/anctimes/polls" element={<Polls></Polls>}></Route>
+        <Route path="/anctimes/video" element={<Video></Video>}></Route>
+      </Routes>
     </div>
   );
 }
