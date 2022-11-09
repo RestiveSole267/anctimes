@@ -11,6 +11,7 @@ import './App.css';
 
 
 function App() {
+  console.log(window.location)
   let component
   switch (window.location.pathname) {
     case "/anctimes":
