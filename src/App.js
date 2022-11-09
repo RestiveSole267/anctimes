@@ -17,28 +17,28 @@ function App() {
     case "/anctimes/":
       component = <Home></Home>
       break;
-    case "/anctimes/#/politics":
+    case "/anctimes/politics":
       component = <Politics></Politics>
       break;
-    case "/anctimes/#/opinion":
+    case "/anctimes/opinion":
       component = <Opinion></Opinion>
       break;
-    case "/anctimes/#/elections":
+    case "/anctimes/elections":
       component = <Elections></Elections>
       break;
-    case "/anctimes/#/mayorial":
+    case "/anctimes/mayorial":
       component = <Mayorial></Mayorial>
       break;
-    case "/anctimes/#/assembly":
+    case "/anctimes/assembly":
       component = <Assembly></Assembly>
       break;
-    case "/anctimes/#/referendums":
+    case "/anctimes/referendums":
       component = <Referendum></Referendum>
       break;
-    case "/anctimes/#/polls":
+    case "/anctimes/polls":
         component = <Polls></Polls>
         break;
-    case "/anctimes/#/video":
+    case "/anctimes/video":
       component = <Video></Video>
       break;
     default:

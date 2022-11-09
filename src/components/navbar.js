@@ -6,16 +6,16 @@ class NavBar extends React.Component{
         return (
             <div id="navbar">
                 <div className="links">
-                <a className="b" href="/anctimes/#/politics">
+                <a className="b" href="/anctimes/politics">
                     Politics
                 </a>
-                <a className="b" href="/anctimes/#/opinion">
+                <a className="b" href="/anctimes/opinion">
                     Opinion
                 </a>
-                <a  className="b" href="/anctimes/#/elections">
+                <a  className="b" href="/anctimes/elections">
                     Elections
                 </a>
-                <a className="b" href="/anctimes/#/video">
+                <a className="b" href="/anctimes/video">
                     Video
                 </a>
                 </div>
