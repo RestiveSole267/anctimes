@@ -13,31 +13,31 @@ import './App.css';
 function App() {
   let component
   switch (window.location.pathname) {
-    case "/":
+    case "/anctimes":
       component = <Home></Home>
       break;
-    case "/politics":
+    case "/anctimes/politics":
       component = <Politics></Politics>
       break;
-    case "/opinion":
+    case "/anctimes/opinion":
       component = <Opinion></Opinion>
       break;
-    case "/elections":
+    case "/anctimes/elections":
       component = <Elections></Elections>
       break;
-    case "/mayorial":
+    case "/anctimes/mayorial":
       component = <Mayorial></Mayorial>
       break;
-    case "/assembly":
+    case "/anctimes/assembly":
       component = <Assembly></Assembly>
       break;
-    case "/referendums":
+    case "/anctimes/referendums":
       component = <Referendum></Referendum>
       break;
-    case "/polls":
+    case "/anctimes/polls":
         component = <Polls></Polls>
         break;
-    case "/video":
+    case "/anctimes/video":
       component = <Video></Video>
       break;
   }
