@@ -4,8 +4,9 @@
 <h1 align = "center">The Anchorage Times</h1>
 <p align = "center">"Democracy At Stake"</p>
 
-More information on this project to come soon.
 [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/19eje.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
+
+More information on this project to come soon.
 | Color         | Hex                                                                |
 | ------------- | ------------------------------------------------------------------ |
 | Democract     | ![#1375b7](https://via.placeholder.com/10/1375b7?text=+) `#1375b7` |
