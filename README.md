@@ -6,7 +6,7 @@
 
 [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/19eje.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 
-Photo Credits - Maksim Malanchuk (Stanlabs)
+**Photo Credits** - Maksim Malanchuk (Stanlabs)
 
 More information on this project to come soon.
 | Color         | Hex                                                                |
