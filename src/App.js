@@ -18,7 +18,7 @@ function App() {
         <Route path="/anctimes/" element={<Home></Home>}></Route>
         <Route path="/anctimes/politics" element={<Politics></Politics>}></Route>
         <Route path="/anctimes/opinion" element={<Opinion></Opinion>}></Route>
-        <Route path="/anctimes/elections" element={<Elections></Elections>}></Route>
+        <a href="https://restivesole267.github.io/anctimes-elections/" ></a>
         <Route path="/anctimes/mayorial" element={<Mayorial></Mayorial>}></Route>
         <Route path="/anctimes/assembly" element={<Assembly></Assembly>}></Route>
         <Route path="/anctimes/referendum" element={<Referendum></Referendum>}></Route>
