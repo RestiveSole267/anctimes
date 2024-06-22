@@ -8,7 +8,7 @@
 
 **Photo Credits** - Maksim Malanchuk (Stanlabs) & Cameron White ([RestiveSole267](https://github.com/RestiveSole267))
 
-**Updated Election Page** - ([The Anchorage Times - Elections](https://restivesole267.github.io/anctimes-elections/))
+**Updated Election Page** - [The Anchorage Times - Elections](https://restivesole267.github.io/anctimes-elections/)
 
 More information on this project to come soon.
 | Color         | Hex                                                                |
