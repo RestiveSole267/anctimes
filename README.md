@@ -6,7 +6,7 @@
 
 [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v2/monitor/19eje.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 
-**Photo Credits** - Maksim Malanchuk (Stanlabs) & Cameron White ([RestiveSole267](https://github.com/RestiveSole267))
+**Photo Credits** - Cameron White ([RestiveSole267](https://github.com/RestiveSole267))
 
 **Updated Election Page** - [The Anchorage Times - Elections](https://restivesole267.github.io/anctimes-elections/)
 
