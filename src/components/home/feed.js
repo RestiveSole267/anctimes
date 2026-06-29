@@ -13,7 +13,7 @@ class Feed extends React.Component{
                             <div className="contenta">
                                 <h1>Anchorage Winter Wonderland</h1>
                                 <p>Finally Anchorage Winter Wonderland! Yep you heard right, Anchorage finally has been given it winter wonderland that it has been asking for weeks, as the weather has been forecasting as quite gloomy with little snow for the past week.</p>
-                                <p>In honor of Anchorage first Winter Wonderland for this year, Governor Malanchunk has declared a closure of the government business and schools for the next two days this week as the snow has been recorded to reach 5 inches.</p>
+                                <p>In honor of Anchorage first Winter Wonderland for this year, Governor Labson has declared a closure of the government business and schools for the next two days this week as the snow has been recorded to reach 5 inches.</p>
                             </div>
                             <div className="image">
                                 <img src={StateCaptial} width="625px" height="400px" className="StateCaptial" alt="SC.png"></img>
